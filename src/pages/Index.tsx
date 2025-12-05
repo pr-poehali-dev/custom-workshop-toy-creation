@@ -162,9 +162,7 @@ const Index = () => {
             <div className="space-y-6 text-lg">
               <div className="flex items-center justify-center gap-4 hover:scale-105 transition-transform">
                 <Icon name="Phone" className="text-primary" size={28} />
-                <a href="tel:+79991234567" className="text-foreground hover:text-primary font-medium">
-                  +7 (999) 123-45-67
-                </a>
+                <a href="tel:+79991234567" className="text-foreground hover:text-primary font-medium">+7 (919) 123-45-67</a>
               </div>
               <div className="flex items-center justify-center gap-4 hover:scale-105 transition-transform">
                 <Icon name="Mail" className="text-accent" size={28} />
@@ -174,7 +172,7 @@ const Index = () => {
               </div>
               <div className="flex items-center justify-center gap-4 hover:scale-105 transition-transform">
                 <Icon name="MapPin" className="text-secondary" size={28} />
-                <span className="text-foreground font-medium">г. Москва, ул. Игрушечная, д. 1</span>
+                <span className="text-foreground font-medium">г. Пермь, ул. Игрушечная, д. 1</span>
               </div>
               <div className="pt-6 border-t border-border">
                 <p className="text-xl font-bold text-primary mb-4">Следите за нами:</p>
@@ -196,9 +194,7 @@ const Index = () => {
       </section>
 
       <footer className="py-8 bg-primary/10 text-center">
-        <p className="text-foreground/80 text-lg">
-          © 2024 CustomWorkshop. Создаём игрушки мечты с любовью 💝
-        </p>
+        <p className="text-foreground/80 text-lg">© 2025 CustomWorkshop. Создаём игрушки мечты с любовью 💝</p>
       </footer>
     </div>
   );
